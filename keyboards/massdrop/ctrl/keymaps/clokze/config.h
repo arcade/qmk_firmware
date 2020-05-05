@@ -45,7 +45,7 @@
 #define RGB_MATRIX_FRAMEBUFFER_EFFECTS
 #define RGB_MATRIX_KEYPRESSES         // reacts to keypresses
 // #define RGB_MATRIX_KEYRELEASES        // reacts to keyreleases (instead of keypresses)
-#define RGB_MATRIX_STARTUP_MODE RGB_MATRIX_NONE // Sets the default mode, if none has been set
+#define RGB_MATRIX_STARTUP_MODE RGB_MATRIX_SOLID_COLOR // Sets the default mode, if none has been set
 #define RGB_MATRIX_STARTUP_SAT 255 // sets the default startup sat
 #define RGB_MATRIX_STARTUP_HUE 112 // sets the default startup hue
 #define RGB_MATRIX_STARTUP_SPD 232  // sets the default startup speed

@@ -100,13 +100,14 @@ enum string_macro_keycodes {
     G_LOG,                 // git log
 };
 
-/* typedef union { */
-/*     uint32_t raw; */
+typedef union {
+    uint32_t raw;
 
-/*     struct { */
-/*         uint8_t led_flags :8; */
-/*     }; */
+    struct {
+        bool leds_enabled :1;
+        uint8_t led_flags :8;
+    };
 
-/* } user_config_t; */
+} user_config_t;
 
-/* user_config_t user_config; */
+user_config_t user_config;

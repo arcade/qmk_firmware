@@ -13,4 +13,4 @@ TERMINAL_ENABLE = yes
 EXTRAKEY_ENABLE = yes			# Audio control and System control
 # RAW_ENABLE = yes				# Raw HID has not yet been implemented for this keyboard
 # COMBO_ENABLE					# Key combo feature
-# LEADER_ENABLE					# Enable leader key chording
+#LEADER_ENABLE = yes					# Enable leader key chording
